@@ -9,4 +9,5 @@ variable "subnet_name_2" {}
 variable "route" {}
 variable "az1" {}
 variable "az2" {}
-
+variable "subnet_cidr_3" {}
+variable "subnet_name_3" {}
