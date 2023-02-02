@@ -28,4 +28,3 @@ resource "aws_subnet" "DevOps-Subnet-3" {
   }
   depends_on = [aws_subnet.DevOps-Subnet-2]
 }
-

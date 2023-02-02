@@ -16,3 +16,11 @@ resource "aws_internet_gateway" "DevOps-IGW" {
     aws_vpc.DevOps
   ]
 }
+resource "aws_vpc" "DevOps-1" {
+ cidr_block           = var.vpc_cidr_1
+  enable_dns_hostnames = true
+  tags = {
+   Name = var.vpc_name_1
+  Env  = var.env
+  }
+}

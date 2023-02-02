@@ -11,3 +11,5 @@ variable "az1" {}
 variable "az2" {}
 variable "subnet_cidr_3" {}
 variable "subnet_name_3" {}
+variable "vpc_cidr_1" {}
+variable "vpc_name_1" {}
